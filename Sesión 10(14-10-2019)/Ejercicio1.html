@@ -11,6 +11,22 @@
         .claseColor {
             color: bisque;
         }
+
+        /* Selector de elemento */
+        p {
+            text-align: center;
+            color: cyan;
+        }
+
+        /* Selecto de id. Estilo particular */
+        #particularColor1 {
+            color: darkgreen;
+        }
+
+        /* Selector de clase */
+        .claseAlinacion1 {
+            text-align: right;
+        }
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -29,8 +45,15 @@
     <p style="color: red;" class="claseColor">Este párrafo va a tener propiedads que se sobrescriben.Aquí demostramos
         que el estilo en línea tiene prioridad sobre el interno</p>
     <p class="claseColor colorHojaExterna">Se prueba el orden de prioridades entre una hoja de estilos interna y una
-        hoja de estilos externa. En este caso la hoja de estilos externa está declarada después en el código HTML, por lo
+        hoja de estilos externa. En este caso la hoja de estilos externa está declarada después en el código HTML, por
+        lo
         que tiene prioridad ante la interna.</p>
+    <h2>Selectores</h2>
+    <p>Los elementos que tengan una clase específica van a tener las propiedades de es clase espcífica con
+        prioridad sobre los selectores de ese elemento si hay propiedades que se sobrescriban</p>
+    <p id="particularColor1">Este párrafo va a cumplir un estilo particular (selector de id)</p>
+    <p class="claseAlinacion1">Este párrafo cumple una clase "claseAlinacion1". Si cumpliera un selector de nombre, las
+        propiedades con la clase "claseAlinacion1" tendrían prioridad en el selector de clase</p>
 </body>
 
 </html>
