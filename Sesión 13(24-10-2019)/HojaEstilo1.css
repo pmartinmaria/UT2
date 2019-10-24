@@ -1,0 +1,30 @@
+.dimensionesCapa{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    border: solid 1px black;
+}
+.padding1{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+.paddingGeneral{
+    padding:50px;
+    margin-top: 30px;
+}
+.capaAlturaMinima{
+    width: 60%;
+    min-height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border: solid 1px black;
+}
+@font-face{
+    font-family: familiaFuente;
+    src: url(Fonts/YanoneKaffeesatz-Regular.ttf);
+}
+.pruebaFuente{
+    font-family: familiaFuente;
+}
