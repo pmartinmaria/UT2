@@ -1,0 +1,28 @@
+/* Pseduo clases para controlar el estado de los elementos */
+a:link{
+    color: green;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(255, 53, 255);
+}
+a:active{
+    color: aqua;
+    background-color: pink;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+ol{
+background-color:#ff9999 ;
+padding: 20px;
+}
+ol li{
+    background-color: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+ul{
+    list-style-image: url("icono-lista.jpg");
+}

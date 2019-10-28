@@ -1,3 +1,24 @@
 .familiaFuente1{
     font-family: Arial, Helvetica, sans-serif;
 }
+.estiloFuenteNormal1{
+font-style: normal;
+}
+.estiloFuenteItalic1{
+    font-style: italic;
+}
+.estiloFuenteOblique1{
+    font-style: oblique;
+}
+.tamanioFuente1{
+    font-size: 25px; /*Medida absoluta*/
+}
+.tamanioFuente2{
+    font-size: 1.5em; /*Medida relativa*/
+}
+.anchoFuente1{
+    font-weight: bold;
+}
+.fontVariant1{
+    font-variant: small-caps;
+}
