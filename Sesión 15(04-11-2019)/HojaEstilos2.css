@@ -1,8 +1,34 @@
-p{
+p.invisible{
     display: none;
     background-color: yellow;
     padding: 20px;
 }
 div:hover p{
     display: block;
+}
+/* Pseudoclase first-chil */
+div p:first-child{
+    color: brown;
+}
+/* Pseudoelemento first line */
+p.primeraLinea::first-line{
+    font-size: 2em;
+    text-indent: 10px;
+}
+/* Pseudoelemento first letter */
+p.primeraLetra::first-letter{
+    font-size: 3em;
+}
+/* Pseudoelemento before */
+h6::before{
+    content: "Elemento - ";
+}
+/* Pseudoelemento after */
+h5::after{
+    content: " - Videojuego";
+}
+/* Pseudoelemento selection */
+::selection{
+    background-color: darkgrey;
+    color: cadetblue;
 }
