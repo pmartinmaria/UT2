@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1 - Sesión 15</title>
+    <link rel="stylesheet" href="HojaEstilos1.css">
+</head>
+
+<body>
+    <h1>Ejercicio 1 - Sesión 15</h1>
+
+    <h2>Trabajo con listas</h2>
+    <ol class="a">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+    </ol>
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+    </ol>
+    <ul class="b">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+    </ul>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+    </ul>
+
+    <h2>Conbinadores</h2>
+    <h3>Selector descendente</h3>
+    <div>
+        <p>Este parrafo es descendiente del div. Debería aparecer en verde</p>
+        <span>
+            <p>Este parrafo es descendiente del div?</p>
+        </span>
+    </div>
+    <h3>Selector hijo</h3>
+    <span>
+        <a href="http://google.es" target="_blank">Enlace a Google, hijo de span</a>
+        <!-- El target _blank abre en una nueva ventana -->
+        <a href="http://amazon.es" target="_blank">Enlace a Amazon, hijo de span</a>
+        <div>
+            <a href="http://ebay.com" target="_blank">Enlace a Ebay, dentro de span, pero hijo de div</a>
+        </div>
+        <a href="http://apple.com">Enlace a Apple, hijo de span</a>
+    </span>
+    <h3>Selector hermano adyacente</h3>
+    <div>
+        <h4>h4 hijo de div</h4>
+        <h5>h5 hijo de div, hermano adyacente de h4</h5>
+        <h5>h5 hijo de div, hermano no adyacente de h4</h5>
+    </div>
+    <h3>Selector hermano general</h3>
+    <div>
+        <h5>h5 hijo de div</h5>
+        <h6>h6 hijo de div, hermano adyacente de h5</h6>
+        <h6>h6 hijo de div, hermano no adyacente de h5</h6>
+    </div>
+    <h3>Pseudoclases</h3>
+    <div>
+        <a href="http://www.google.es" class="resaltado">Enlace a Google. Elemento que cumple una clase "resaltado" y
+            que activa su estilo
+            al poner el ratón encima</a>
+        <p class="resaltado">Elemento p que cumple la clase resaltado</p>
+    </div>
+</body>
+
+</html>
