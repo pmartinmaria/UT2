@@ -1,0 +1,28 @@
+.displayNone{
+    width: 75%;
+    min-height: 500px;
+    border: 1px solid black;
+    display: none;
+}
+.displayInline{
+ display: inline;   
+ color: red;
+ border: 1px solid black;
+}
+.pruebasImagen{
+    width: 80%;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+.displayInlineblock{
+    display: inline-block;
+    width: 50%;
+    border: 1px solid black;
+    border-style: border-box;
+}
+.capaOculta{
+    width: 80%;
+    min-height: 600px;
+    border: 2px solid black;
+    visibility: hidden;
+}

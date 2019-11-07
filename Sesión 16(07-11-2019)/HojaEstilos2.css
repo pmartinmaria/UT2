@@ -1,0 +1,64 @@
+.capaGen {
+    width: 30%;
+    min-height: 300px;
+}
+
+.static {
+    position: static;
+    border: 1px solid black;
+}
+
+.relative1 {
+    /* Posiciona en relación al flujo del documento, tiene cuenta a los elementos de su alrededor */
+    position: relative;
+    left: 200px;
+    top: 500px;
+    border: 1px solid green;
+    min-height: 200px;
+}
+.relative2 {
+    /* Posiciona en relación al flujo del documento, tiene cuenta a los elementos de su alrededor */
+    position: relative;
+    left: 200px;
+    top: 300px;
+    border: 1px solid yellow;
+}
+.absolute1{
+    position: absolute;
+    /* top: 2000px; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.absolute2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.absolute3{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.absolute4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.absolute5{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
