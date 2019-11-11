@@ -1,0 +1,46 @@
+.capa {
+    width: 25%;
+    min-height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.capaMedia{
+    width: 50%;
+    height: 200px;
+    overflow: auto;
+}
+
+.flotarIzquierda {
+    float: left;
+}
+
+.flotarDerecha {
+    float: right;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+    border: 1px solid red;
+    box-sizing: border-box;
+    clear: both;
+    /*Se limpian los flotantes superiores a ambos lados*/
+    min-height: 200px;
+}
+
+.contenedorMenu {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elemento{
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
