@@ -1,0 +1,25 @@
+.capa{
+    width: 30%;
+    min-height: 200px;
+}
+.fixed{
+    position: fixed;
+    left: 30%;
+    top: 250px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+.sticky{
+    position: sticky;
+    left: 20%;
+    top: 00px;
+    border: 1px solid black;
+    background-color: coral;
+}
+.absolute {
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}

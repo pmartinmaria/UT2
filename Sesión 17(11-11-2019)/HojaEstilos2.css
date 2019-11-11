@@ -1,0 +1,39 @@
+.capa{
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid black;
+}
+.contenedor{
+    width: 90%;
+    min-height: 600px;
+    margin: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    background-color: crimson;
+    top: 5%;
+    left: 10%;
+    z-index: 100;
+}
+.absolute2{
+    position: absolute;
+    background-color: darkmagenta;
+    top: 20%;
+    left: 5%;
+    z-index: 0;
+}
+.absolute3{
+    position: absolute;
+    background-color: darkslategray;
+    top: 10%;
+    left: 20%;
+    z-index: 50;
+}
+.scroll{
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
