@@ -1,0 +1,97 @@
+.flotarDerecha {
+    float: right;
+}
+
+.capaCentrada {
+    /*Centrado de elementos de bloque*/
+    width: 70%;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.capaCentrada2 {
+    /*Centrado de elementos de linea*/
+    text-align: center;
+}
+
+.contenedor {
+    width: 80%;
+    border: 1px solid black;
+    min-height: 270px;
+    position: relative;
+    background-image: url(img.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.alinearDerecha {
+    /*Alinear a la derecha con position*/
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.alinearDerecha2 {
+    float: right;
+}
+ol{
+    list-style-type: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+ol li{
+    padding: 30px 10px;
+    border: 1px solid black;
+    display: inline;
+}
+.centradoCompleto{
+    height: 200px;
+    line-height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+}
+.centradoCompleto p{
+    line-height: 1.5;/*Recomendable solo para una línea el centrado vertical*/
+    display: inline-block;
+    vertical-align: middle;
+}
+.contenedorTransform{
+    height: 200px;
+    position: relative;
+    border: 1px solid black;
+}
+.contenedorTransform p{/*Incompatible con IE8 y anteriores*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*Desplaza en el eje x y en el eje y*/
+    -ms-transform: translate(-50%, -50%);
+}
+.opacidad{
+    opacity: 0.5;
+    filter: alpha(opacity=50);/*Para IE8 y anteriores*/
+}
+.contenedorImagen{
+    position: relative;
+    width: 70%;
+    min-height: 300px;
+    margin: auto;
+    border: 1px solid brown;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+.img3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
